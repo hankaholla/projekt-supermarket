@@ -1,8 +1,54 @@
 object Form3: TForm3
-  Left = 718
-  Height = 240
-  Top = 253
-  Width = 320
+  Left = 585
+  Height = 554
+  Top = 142
+  Width = 706
   Caption = 'Form3'
+  ClientHeight = 554
+  ClientWidth = 706
+  Color = 11009227
+  OnCreate = FormCreate
   LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 32
+    Height = 49
+    Top = 24
+    Width = 171
+    Caption = 'mrazene dobrotky'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 232
+    Height = 49
+    Top = 24
+    Width = 200
+    Caption = 'nedelna chvilka poezie'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 464
+    Height = 49
+    Top = 24
+    Width = 200
+    Caption = 'sexia'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 32
+    Height = 409
+    Top = 104
+    Width = 627
+  end
+  object Button4: TButton
+    Left = 32
+    Height = 24
+    Top = 528
+    Width = 117
+    Caption = 'sipka spat'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
 end

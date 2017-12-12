@@ -6,8 +6,9 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls,
-  Unit2;
+  StdCtrls;
+
+
 
 
 type
@@ -25,8 +26,10 @@ type
     Label5: TLabel;
     Label6: TLabel;
     Label7: TLabel;
+    Label8: TLabel;
     Memo1: TMemo;
     procedure Button1Click(Sender: TObject);
+    procedure Edit1Change(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure ToggleBox1Change(Sender: TObject);
   private
@@ -34,14 +37,6 @@ type
   public
     { public declarations }
   end;
-{type
-  TForm2 = class(TForm)
-  private
-    { private declarations }
-  public
-    { public declarations }
-  end;     }
-
 type zaznam=record
      meno:string;
      heslo:integer;
@@ -55,6 +50,8 @@ var zamestnanci: array [1..n] of zaznam;
   Form1: TForm1;
 
 implementation
+uses
+  Unit2;
 
 {$R *.lfm}
 
@@ -79,6 +76,11 @@ for j:= 1 to n do
            label7.caption:='CHYBNE PRIHLASOVACIE UDAJE! SKUSTE ZNOVU';
            end;
     end;
+end;
+
+procedure TForm1.Edit1Change(Sender: TObject);
+begin
+
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
