@@ -4,6 +4,5 @@ object Form1: TForm1
   Top = 226
   Width = 320
   Caption = 'Form1'
-  OnCreate = FormCreate
   LCLVersion = '1.4.0.4'
 end
