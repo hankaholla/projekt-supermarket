@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 object Form1: TForm1
   Left = 955
   Height = 240
@@ -7,3 +8,129 @@ object Form1: TForm1
   OnCreate = FormCreate
   LCLVersion = '1.4.0.4'
 end
+=======
+object Form1: TForm1
+  Left = 415
+  Height = 783
+  Top = 164
+  Width = 891
+  Caption = 'Form1'
+  ClientHeight = 783
+  ClientWidth = 891
+  Color = 16572077
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 560
+    Height = 105
+    Top = 528
+    Width = 195
+    Caption = 'PRIHLÁSIŤ SA'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 408
+    Height = 33
+    Top = 312
+    Width = 160
+    OnChange = Edit1Change
+    TabOrder = 1
+    Text = 'AB123'
+  end
+  object Edit2: TEdit
+    Left = 408
+    Height = 33
+    Top = 440
+    Width = 160
+    TabOrder = 2
+    Text = '47398'
+  end
+  object Label1: TLabel
+    Left = 376
+    Height = 25
+    Top = 176
+    Width = 129
+    Caption = 'Pokladňa č. 007 '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 368
+    Height = 25
+    Top = 256
+    Width = 151
+    Caption = 'Prihlásenie obsluhy'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 320
+    Height = 25
+    Top = 312
+    Width = 46
+    Caption = 'meno'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 320
+    Height = 25
+    Top = 440
+    Width = 42
+    Caption = 'heslo'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 368
+    Height = 63
+    Top = 24
+    Width = 158
+    Caption = 'HNILLA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -56
+    Font.Name = 'Bauhaus 93'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 408
+    Height = 25
+    Top = 152
+    Width = 54
+    Caption = 'Vitajte!'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 40
+    Height = 530
+    Top = 72
+    Width = 150
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 3
+  end
+  object Label7: TLabel
+    Left = 320
+    Height = 1
+    Top = 520
+    Width = 1
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 320
+    Height = 24
+    Top = 96
+    Width = 295
+    Caption = 'PLESNE PODĽA MOJEJ CHUTI'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -20
+    Font.Name = 'Felix Titling'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
+>>>>>>> 08ad622f321fb392a5889439fef73e19e541a629

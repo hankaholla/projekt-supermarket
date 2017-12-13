@@ -1,8 +1,117 @@
 object Form1: TForm1
+<<<<<<< HEAD
   Left = 955
   Height = 240
   Top = 226
   Width = 320
   Caption = 'Form1'
   LCLVersion = '1.4.0.4'
+=======
+  Left = 520
+  Height = 800
+  Top = 243
+  Width = 891
+  Caption = 'Form1'
+  ClientHeight = 800
+  ClientWidth = 891
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 568
+    Height = 105
+    Top = 512
+    Width = 195
+    Caption = 'PRIHLÁSIŤ SA'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 504
+    Height = 33
+    Top = 312
+    Width = 160
+    TabOrder = 1
+    Text = 'XY000'
+  end
+  object Edit2: TEdit
+    Left = 504
+    Height = 33
+    Top = 448
+    Width = 160
+    TabOrder = 2
+    Text = '00000'
+  end
+  object Label1: TLabel
+    Left = 376
+    Height = 25
+    Top = 192
+    Width = 129
+    Caption = 'Pokladňa č. 007 '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 368
+    Height = 25
+    Top = 240
+    Width = 151
+    Caption = 'Prihlásenie obsluhy'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 320
+    Height = 25
+    Top = 312
+    Width = 46
+    Caption = 'meno'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 320
+    Height = 25
+    Top = 448
+    Width = 42
+    Caption = 'heslo'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 360
+    Height = 32
+    Top = 32
+    Width = 222
+    Caption = 'POKLADŇA HNILLA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -28
+    Font.Name = 'Bauhaus 93'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 408
+    Height = 25
+    Top = 96
+    Width = 54
+    Caption = 'Vitajte!'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 10
+    Height = 530
+    Top = 10
+    Width = 150
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 3
+  end
+  object Label7: TLabel
+    Left = 432
+    Height = 25
+    Top = 552
+    Width = 51
+    Caption = 'Label7'
+    ParentColor = False
+  end
+>>>>>>> 08ad622f321fb392a5889439fef73e19e541a629
 end

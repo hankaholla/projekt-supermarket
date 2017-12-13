@@ -1,0 +1,124 @@
+object Form2: TForm2
+  Left = 673
+  Height = 667
+  Top = 167
+  Width = 712
+  Caption = 'Form2'
+  ClientHeight = 667
+  ClientWidth = 712
+  Color = 16760831
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 32
+    Width = 120
+    Caption = 'Vyber polozky nakupu:'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 33
+    Height = 56
+    Top = 96
+    Width = 115
+    Caption = 'zoznam'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 448
+    Height = 250
+    Top = 96
+    Width = 182
+    Color = 15783903
+    Lines.Strings = (
+      'Memo2'
+    )
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 272
+    Height = 56
+    Top = 536
+    Width = 136
+    Caption = 'potvrdit'
+    Color = clBackground
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 584
+    Height = 57
+    Top = 17
+    Width = 96
+    Caption = 'log out'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 23
+    Top = 544
+    Width = 80
+    TabOrder = 4
+    Text = '000000'
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 504
+    Width = 70
+    Caption = 'KOD TOVARU'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 136
+    Height = 23
+    Top = 544
+    Width = 120
+    TabOrder = 5
+    Text = 'mnozstvo'
+  end
+  object Button5: TButton
+    Left = 448
+    Height = 57
+    Top = 376
+    Width = 184
+    Caption = 'VYUCTUJ!'
+    Color = 11159165
+    OnClick = Button5Click
+    TabOrder = 6
+  end
+  object Image1: TImage
+    Left = 32
+    Height = 283
+    Top = 176
+    Width = 376
+  end
+  object Label3: TLabel
+    Left = 42
+    Height = 15
+    Top = 617
+    Width = 34
+    Caption = 'Label3'
+    ParentColor = False
+  end
+  object ScrollBar1: TScrollBar
+    Left = 382
+    Height = 283
+    Top = 176
+    Width = 26
+    Kind = sbVertical
+    PageSize = 0
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 629
+    Height = 15
+    Top = 592
+    Width = 34
+    Caption = 'Label4'
+    ParentColor = False
+  end
+end
